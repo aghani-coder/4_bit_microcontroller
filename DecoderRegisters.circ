@@ -14,6 +14,9 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <tool name="AND Gate">
       <a name="size" val="30"/>
     </tool>
+    <tool name="NOR Gate">
+      <a name="size" val="30"/>
+    </tool>
     <tool name="Controlled Buffer">
       <a name="width" val="4"/>
     </tool>
@@ -154,6 +157,7 @@ end TCL_Generic;&#13;
     <wire from="(730,650)" to="(730,660)"/>
     <wire from="(1170,600)" to="(1170,680)"/>
     <wire from="(510,280)" to="(510,480)"/>
+    <wire from="(60,300)" to="(110,300)"/>
     <wire from="(970,130)" to="(970,160)"/>
     <wire from="(950,670)" to="(950,700)"/>
     <wire from="(730,660)" to="(770,660)"/>
@@ -201,6 +205,7 @@ end TCL_Generic;&#13;
     <wire from="(1140,810)" to="(1160,810)"/>
     <wire from="(590,190)" to="(600,190)"/>
     <wire from="(590,670)" to="(600,670)"/>
+    <wire from="(160,330)" to="(350,330)"/>
     <wire from="(730,220)" to="(730,230)"/>
     <wire from="(590,840)" to="(590,850)"/>
     <wire from="(980,910)" to="(980,920)"/>
@@ -240,6 +245,7 @@ end TCL_Generic;&#13;
     <wire from="(1010,610)" to="(1080,610)"/>
     <wire from="(690,900)" to="(690,960)"/>
     <wire from="(500,700)" to="(950,700)"/>
+    <wire from="(110,320)" to="(120,320)"/>
     <wire from="(970,180)" to="(980,180)"/>
     <wire from="(970,620)" to="(980,620)"/>
     <wire from="(570,130)" to="(970,130)"/>
@@ -257,6 +263,7 @@ end TCL_Generic;&#13;
     <wire from="(1110,210)" to="(1110,230)"/>
     <wire from="(970,270)" to="(970,280)"/>
     <wire from="(1020,830)" to="(1080,830)"/>
+    <wire from="(60,360)" to="(110,360)"/>
     <wire from="(730,880)" to="(770,880)"/>
     <wire from="(690,200)" to="(690,420)"/>
     <wire from="(950,940)" to="(990,940)"/>
@@ -267,6 +274,7 @@ end TCL_Generic;&#13;
     <wire from="(510,690)" to="(510,710)"/>
     <wire from="(590,410)" to="(590,430)"/>
     <wire from="(630,470)" to="(800,470)"/>
+    <wire from="(350,240)" to="(350,330)"/>
     <wire from="(570,350)" to="(570,390)"/>
     <wire from="(510,260)" to="(600,260)"/>
     <wire from="(1070,850)" to="(1070,900)"/>
@@ -308,6 +316,8 @@ end TCL_Generic;&#13;
     <wire from="(730,450)" to="(770,450)"/>
     <wire from="(510,260)" to="(510,280)"/>
     <wire from="(530,490)" to="(950,490)"/>
+    <wire from="(110,300)" to="(110,320)"/>
+    <wire from="(110,340)" to="(110,360)"/>
     <wire from="(770,450)" to="(770,660)"/>
     <wire from="(510,900)" to="(510,920)"/>
     <wire from="(590,620)" to="(590,640)"/>
@@ -323,6 +333,7 @@ end TCL_Generic;&#13;
     <wire from="(540,180)" to="(540,430)"/>
     <wire from="(630,610)" to="(700,610)"/>
     <wire from="(1070,190)" to="(1070,420)"/>
+    <wire from="(110,340)" to="(120,340)"/>
     <wire from="(970,160)" to="(980,160)"/>
     <wire from="(570,350)" to="(970,350)"/>
     <wire from="(970,600)" to="(980,600)"/>
@@ -402,12 +413,18 @@ end TCL_Generic;&#13;
       <a name="width" val="4"/>
       <a name="trigger" val="falling"/>
     </comp>
+    <comp lib="8" loc="(32,360)" name="Text">
+      <a name="text" val="A3"/>
+    </comp>
     <comp lib="1" loc="(810,590)" name="Controlled Buffer">
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(190,270)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="1" loc="(160,330)" name="NOR Gate">
+      <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1020,830)" name="AND Gate">
       <a name="size" val="30"/>
@@ -449,6 +466,9 @@ end TCL_Generic;&#13;
     </comp>
     <comp lib="1" loc="(1010,680)" name="AND Gate">
       <a name="size" val="30"/>
+    </comp>
+    <comp lib="8" loc="(27,294)" name="Text">
+      <a name="text" val="A4"/>
     </comp>
     <comp lib="4" loc="(700,350)" name="Register">
       <a name="width" val="4"/>
