@@ -25,4 +25,5 @@
 >.)IF CARRY FLAG IS ZERO OR ONE
 >
 >.)IF ZERO FLAG IS ONE OR ZERO
-
+>
+>**APPLICATION used:logisim 2.7.1**
