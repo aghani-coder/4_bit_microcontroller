@@ -58,7 +58,7 @@ Following members have contributed in completing this project:
 
 Copyright © 2023 [Nust SEECS](https://seecs.nust.edu.pk/).
 
-This project has been successfully delivered to Nust, SEECS 
+This project has been successfully delivered to Nust, SEECS.
 
 Contact to mentioned authority for further improving and upgrading the project.
 
