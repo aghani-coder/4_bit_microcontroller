@@ -7,7 +7,7 @@ Our microcontroller is capable of performing a range of instructions including l
 This `README` file will provide an overview of the various instructions and capabilities of our microcontroller
 
 
-# 🚀 Features:
+# 🚀 Features
 
 Following are the instructions our microcontroller is capable to perform:
 
@@ -28,24 +28,24 @@ Following are the instructions our microcontroller is capable to perform:
 
 # ⚡ Technical Specifications 
 
-✓  `Architecture` : Harvard Machine
+  ✓  `Architecture` : Harvard Machine
 
-✓  `Data Bus`     : 4 Bit
+  ✓  `Data Bus`     : 4 Bit
 
-✓  `Address Bus`  : 5 Bit
+  ✓  `Address Bus`  : 5 Bit
 
-✓  `GPRs`         : 8 Registers
+  ✓  `GPRs`         : 8 Registers
 
-✓  `SRAM`         : 4 Bit
+  ✓  `SRAM`         : 4 Bit
 
-✓  `Flags`        : Zero, Overflow, Negative 
+  ✓  `Flags`        : Zero, Overflow, Negative 
 
 
-# 💻 Application Used:
+# 💻 Application Used
   [Logisim 2.7.1](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/logisim-win-2.7.1.exe/download) is a free and open-source digital circuit simulator software that allows users to design and simulate digital logic circuits. It is a popular tool for both educational and professional purposes.
 
 
-# 👨🏻‍💻 Contributors : 
+# 👨🏻‍💻 Contributors 
 
 Following members have contributed in completing this project:
 -  [Umer Adam](https://github.com/UmarAdam9)
