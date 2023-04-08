@@ -183,22 +183,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(610,260)" to="(690,260)"/>
     <wire from="(270,330)" to="(340,330)"/>
     <wire from="(380,160)" to="(450,160)"/>
-    <comp lib="0" loc="(480,260)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+    <comp lib="1" loc="(790,520)" name="XOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(380,280)" name="XOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(140,240)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B input"/>
+    <comp lib="1" loc="(830,310)" name="NOR Gate">
+      <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(790,600)" name="OR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(910,430)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="label" val="N flag"/>
     </comp>
     <comp lib="0" loc="(250,370)" name="Splitter">
       <a name="facing" val="west"/>
@@ -206,54 +203,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="4"/>
     </comp>
     <comp lib="1" loc="(610,660)" name="NOT Gate"/>
-    <comp lib="0" loc="(690,260)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
+    <comp lib="0" loc="(180,240)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(880,310)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="Z flag"/>
-    </comp>
-    <comp lib="0" loc="(880,600)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="V flag"/>
-    </comp>
-    <comp lib="0" loc="(140,420)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A input"/>
-    </comp>
-    <comp lib="0" loc="(920,520)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="S flag"/>
-    </comp>
-    <comp lib="1" loc="(830,310)" name="NOR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(790,520)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(610,590)" name="NOT Gate"/>
     <comp lib="1" loc="(690,570)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(380,220)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(610,640)" name="NOT Gate"/>
-    <comp lib="0" loc="(650,340)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+    <comp lib="1" loc="(690,640)" name="AND Gate">
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(920,480)" name="Probe">
       <a name="facing" val="west"/>
       <a name="label" val="C flag"/>
     </comp>
-    <comp lib="0" loc="(910,430)" name="Probe">
+    <comp lib="0" loc="(140,240)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B input"/>
+    </comp>
+    <comp lib="0" loc="(190,420)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(920,520)" name="Probe">
       <a name="facing" val="west"/>
-      <a name="label" val="N flag"/>
+      <a name="label" val="S flag"/>
+    </comp>
+    <comp lib="1" loc="(790,600)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(140,420)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A input"/>
     </comp>
     <comp lib="1" loc="(380,340)" name="XOR Gate">
       <a name="size" val="30"/>
@@ -262,24 +246,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="3" loc="(570,340)" name="Adder">
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(880,310)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="label" val="Z flag"/>
+    </comp>
+    <comp lib="1" loc="(610,590)" name="NOT Gate"/>
+    <comp lib="0" loc="(690,260)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Alu Output"/>
+    </comp>
+    <comp lib="0" loc="(480,260)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(650,340)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
     <comp lib="1" loc="(380,160)" name="XOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(880,600)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="label" val="V flag"/>
     </comp>
     <comp lib="0" loc="(120,100)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Add or sub"/>
     </comp>
-    <comp lib="0" loc="(180,240)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="1" loc="(690,640)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(190,420)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+    <comp lib="1" loc="(380,220)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
   </circuit>
 </project>
