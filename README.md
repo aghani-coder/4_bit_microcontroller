@@ -38,7 +38,7 @@ Following are the instructions our microcontroller is capable to perform:
 
   ✓  `SRAM`         : 4 Bit
 
-  ✓  `Flags`        : Zero, Overflow, Negative 
+  ✓  `Flags`        : Carry, Zero, Overflow, Negative, Sign 
 
 
 # 💻 Application Used
