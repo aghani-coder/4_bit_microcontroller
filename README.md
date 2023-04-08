@@ -49,7 +49,7 @@ Following are the instructions our microcontroller is capable to perform:
 
 Following members have contributed in completing this project:
 -  [Umer Adam](https://github.com/UmarAdam9)
--  [M. Aamar](https://github.com/LCCERO)
+-  [M. Ammar](https://github.com/LCCERO)
 -  [Umer Ali](https://github.com/user38git)
 -  [M. Saad Farrukh](https://github.com/fsaad06)
 -  [Abdul Raheem](https://github.com/aghani-coder)
