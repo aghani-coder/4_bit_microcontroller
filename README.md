@@ -42,6 +42,8 @@ Following are the instructions our microcontroller is capable to perform:
 
 # 💻 Application Used
   [Logisim 2.7.1](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/logisim-win-2.7.1.exe/download) is a free and open-source digital circuit simulator software that allows users to design and simulate digital logic circuits. It is a popular tool for both educational and professional purposes.
+  
+  ⟹  Make sure to add `LIBRARIES` by following the procedure given in [Manual.](https://github.com/aghani-coder/4_bit_microcontroller/blob/master/Manual_4_Bit_Microcontroller.pdf)
 
 
 # 👨🏻‍💻 Contributors 
