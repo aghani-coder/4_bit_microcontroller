@@ -21,10 +21,10 @@ Following are the instructions our microcontroller is capable to perform:
 - `MOVE` VALUE FROM REGISTER TO `REGISTER`
 - `JUMP` TO FOLLOWING `ADDRESS` TO PROGRAM IF ONE OF THE CONDITION IS MET DEPENDING ON USER
 
-> IF CARRY FLAG IS ZERO OR ONE
+> IF CARRY FLAG IS ONE
 
 
->  IF ZERO FLAG IS ONE OR ZERO
+>  IF ZERO FLAG IS ONE 
 
 # ⚡ Technical Specifications 
 
